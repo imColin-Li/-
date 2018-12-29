@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+   "pages/switchcity/switchcity",
+    
+    "pages/weather/weather",
+    "pages/news/news",
+    "pages/detail/detail",
+    
+   
+    "pages/map/map",
+    "pages/hot_play/HotPlay",
+    "pages/movie_detail/MovieDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffc70f",
+    "navigationBarTitleText": "课下",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "backgroundColor": "#ffc70f",
+    "color": "white",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "周边"
+      },
+      {
+        "pagePath": "pages/hot_play/HotPlay",
+        "text": "电影"
+      },
+      {
+        "pagePath": "pages/switchcity/switchcity",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气"
+      }
+    ]
+  }
+}
