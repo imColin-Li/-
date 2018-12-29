@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "热映",
+    "navigationBarBackgroundColor": "#ffc07f",
+    "navigationBarTextStyle": "white",
+    "usingComponents": {
+        "like": "/components/like/Like"
+    }
+}

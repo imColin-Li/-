@@ -1,0 +1,68 @@
+/**index.wxss**/
+.news-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: row;
+  height:150rpx;
+  /*width属性解决标题文字太短而导航缩略偏移*/
+  width:100%;
+  border-bottom:1px solid #ffc70f;
+}
+
+.news-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-stamp {
+    font-size: 25rpx;
+    color:#666;
+    padding: 0 20rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.news-title {
+  margin: 10rpx;
+  font-size: 30rpx;
+  color:rgb(0, 0, 0);
+}
+
+
+.container {
+  height: 5000rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /*padding: 200rpx 0;*/
+  box-sizing: border-box;
+} 
+
+.list-image {
+  width:150rpx;
+  height:100rpx;
+}
+
+.swiper-image {
+	width: 100%;
+}
+.icon-image{
+  width:100rpx;
+  height:100rpx;
+  margin: 80rpx 80rpx 0rpx 150rpx;
+}
+.imagetext{
+  margin: 0rpx 60rpx 50rpx 40rpx;
+  color:  #666;
+  font-size:15px;
+  display: flex;
+  flex-direction: wrap;
+  justify-content:space-around;
+}
